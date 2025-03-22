@@ -44,6 +44,7 @@
 3. Балансировка: Возможность распределения нагрузки при запросах между серверами. При грамотных настройках возможность прохождения пиковых нагрузок не заметно для пользователей.
 
 </details>
+
 ---
 
 ### Задание 2
@@ -68,3 +69,24 @@
 Выполните настройку выбранных методов шардинга из задания 2.
 
 *Пришлите конфиг Docker и SQL скрипт с командами для базы данных*.
+
+<details>
+<summary>ОТВЕТ</summary>
+
+**За основу взят пример из презентации, и лекции. Соответственно доработан. Структура таблици из презентации. Шаринг горизонтальный, по id, остаток от деления.**
+
+*Скрины выполнения*
+ 
+![img](https://github.com/travickiy67/Replication-and-Scaling-Part-2/blob/main/img/1.1.png)
+
+![img](https://github.com/travickiy67/Replication-and-Scaling-Part-2/blob/main/img/1.2.png)
+
+![img](https://github.com/travickiy67/Replication-and-Scaling-Part-2/blob/main/img/1.3.png)
+
+![img](https://github.com/travickiy67/Replication-and-Scaling-Part-2/blob/main/img/1.4.png)
+
+*Файлы*
+
+[files](https://github.com/travickiy67/Replication-and-Scaling-Part-2/tree/main/files)
+
+</details>
