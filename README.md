@@ -31,13 +31,13 @@
 <details>
 <summary>ОТВЕТ</summary>
 
-*активный master-сервер и пассивный репликационный slave-сервер*
+**активный master-сервер и пассивный репликационный slave-сервер**
 
 1. Резервная копия хранящаяся на slave-сервер.
 2. Отказоустойчивость: В случае выхода из строя master-сервера, возможночть настройки slave на на мастер, в случае необходимости внесения изменений в БД, минимизировав время простоя.
 3. Снижает нагрузку на основной сервер при обработке запросов.
 
-*master-сервер и несколько slave-серверов.*
+**master-сервер и несколько slave-серверов.**
 
 1. Высокая отказоустойчивость: Возможность настроить любой slave-сервер на работу в качестве мастер.
 2. Горизонтальная масштабируемость: Возможность создания неограниченного количества реплик.
@@ -79,13 +79,21 @@
  
 ![img](https://github.com/travickiy67/Replication-and-Scaling-Part-2/blob/main/img/1.1.png)
 
+---
+
 ![img](https://github.com/travickiy67/Replication-and-Scaling-Part-2/blob/main/img/1.2.png)
+
+---
 
 ![img](https://github.com/travickiy67/Replication-and-Scaling-Part-2/blob/main/img/1.3.png)
 
+---
+
 ![img](https://github.com/travickiy67/Replication-and-Scaling-Part-2/blob/main/img/1.4.png)
 
-*Файлы*
+---
+
+**Файлы**
 
 [files](https://github.com/travickiy67/Replication-and-Scaling-Part-2/tree/main/files)
 
