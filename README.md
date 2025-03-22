@@ -97,4 +97,21 @@
 
 [files](https://github.com/travickiy67/Replication-and-Scaling-Part-2/tree/main/files)
 
+*Команды*
+
+```
+docker compose up -d
+docker exec -it postgres_b1 psql -U postgres -d books -f /scripts/shards.sql -a /* создание таблиц */
+docker exec -it postgres_b1 psql -U postgres -d books -c "select * from books" /* запрос */
+docker exec -it postgres_d -U postgres /* Подключение к postgres */
+\c books  /* Подключение к базе для запроса */
+docker exec -it postgres_b1 psql -U postgres -d books -c "select * from books" /* запрос */
+
+```
+ 
+ 
+ 
+
+
+
 </details>
